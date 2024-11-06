@@ -1,0 +1,26 @@
+{
+  "name": "aws-node-deploy-test",
+  "version": "1.0.0",
+  "description": "aws test with tf and github workflow for cicd",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/julsbenandiel/aws-node-deploy-test"
+  },
+  "keywords": [
+    "aws",
+    "node",
+    "deploy",
+    "test"
+  ],
+  "author": "juls",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.1"
+  }
+}
