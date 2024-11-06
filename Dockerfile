@@ -1,8 +1,8 @@
-FROM --platform=linux/arm64 node:lts-alpine
+FROM --platform=linux/amd64 node:lts-alpine
 
 WORKDIR /app
 
-COPY package.json package-lock.json ./
+COPY package.json package lock.json ./
 
 RUN npm ci
 
